@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <>
       {/* Footer */}
-      <footer className="fixed bottom-0 w-full z-50 backdrop-blur-md bg-[#020617]/70 border-b border-white/10">
-        <div className="max-w-6xl mx-auto flex justify-center items-center px-4 py-3">
+      <footer className="fixed bottom-0 left-0 w-full z-50 backdrop-blur-md bg-[#020617]/70 border-t border-white/10 h-16 flex items-center">
+        <div className="max-w-6xl mx-auto w-full flex justify-center items-center px-4">
           <p className="text-sm md:text-base text-center text-white">
             © {currentYear} All rights reserved to{" "}
             <span className="font-semibold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
@@ -17,8 +17,8 @@ const Footer = () => {
         </div>
       </footer>
 
-      {/* Spacer div for mobile to prevent content overlap */}
-      <div className="h-16 md:h-12"></div>
+      {/* Spacer to prevent overlap */}
+      <div className="h-16"></div>
     </>
   );
 };
