@@ -44,6 +44,9 @@ margin:auto;
 padding:0 20px;
 }
 
+html, body {
+  overflow-x: hidden;
+}
 
 /* ---------- SECTION ---------- */
 
