@@ -44,7 +44,7 @@ margin:auto;
 padding:0 20px;
 }
 
-html, body {
+ body {
   overflow-x: hidden;
 }
 
@@ -141,7 +141,7 @@ animation:gradientMove 5s linear infinite;
   background:
   linear-gradient(#020617,#020617) padding-box,
   linear-gradient(90deg,#3b82f6,#9333ea,#06b6d4) border-box;
-  order-radius:14px;
+  border-radius:14px;
 
 }
 
