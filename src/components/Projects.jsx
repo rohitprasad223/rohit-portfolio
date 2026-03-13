@@ -6,20 +6,20 @@ import projects from "../data/projects";
 function Projects() {
 
   const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1
-        }
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2
       }
-    ]
-  };
+    }
+  ]
+};
 
   return (
     <section id="projects" className="py-24 px-6 max-w-6xl mx-auto">
@@ -59,7 +59,7 @@ function Projects() {
 
         {projects.map((p, i) => (
 
-          <div key={i} className="p-4">
+          <div key={i} className="px-2 md:p-4">
 
             <div className="bg-white/5 border border-white/10 rounded-xl p-8 hover:border-blue-500 hover:-translate-y-2 transition duration-300">
 

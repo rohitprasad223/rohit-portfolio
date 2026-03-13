@@ -27,7 +27,7 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="py-28 px-6 max-w-6xl mx-auto relative">
+    <section id="contact" className="py-24 px-4 md:px-6 max-w-6xl mx-auto relative">
       {/* background glow */}
       <div className="absolute w-[400px] h-[400px] bg-blue-500/10 blur-[140px] -top-20 left-0"></div>
       <div className="absolute w-[400px] h-[400px] bg-purple-500/10 blur-[140px] bottom-0 right-0"></div>
@@ -63,7 +63,7 @@ function Contact() {
         </p>
       </motion.div>
 
-      <div className="grid md:grid-cols-2 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
 
         {/* LEFT CONTACT INFO */}
         <div className="space-y-6">
@@ -75,7 +75,7 @@ function Contact() {
             <FaEnvelope className="text-2xl text-blue-400" />
             <div>
               <h3 className="font-semibold">Email</h3>
-              <p className="text-gray-400 text-sm">rohit@gmail.com</p>
+              <p className="text-gray-400 text-sm">rp742310@gmail.com</p>
             </div>
           </a>
 

@@ -60,7 +60,7 @@ const skills = [
 
 function Skills() {
   return (
-    <section id="skills" className="py-28 px-6 max-w-6xl mx-auto relative">
+    <section id="skills" className="py-24 px-4 md:px-6 max-w-6xl mx-auto relative">
 
       {/* background glow */}
       <div className="absolute w-[350px] h-[350px] bg-purple-500/10 blur-[120px] -top-10 left-0"></div>
@@ -97,7 +97,7 @@ function Skills() {
       </motion.div>
 
       {/* Skills Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
 
         {skills.map((skill, i) => (
 

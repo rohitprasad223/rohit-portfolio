@@ -40,7 +40,7 @@ function About() {
   ];
 
   return (
-    <section id="about" className="py-28 px-6 max-w-6xl mx-auto relative">
+    <section id="about" className="py-24 px-4 md:px-6 max-w-6xl mx-auto relative">
 
       {/* Background Glow */}
       <div className="absolute w-[500px] h-[500px] bg-blue-500/10 blur-[160px] -top-32 left-1/2 -translate-x-1/2"></div>

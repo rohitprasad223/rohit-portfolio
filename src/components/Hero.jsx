@@ -10,7 +10,7 @@ function Hero() {
       <div className="absolute w-[600px] h-[600px] bg-blue-500/20 blur-[160px] top-20 -left-20"></div>
       <div className="absolute w-[500px] h-[500px] bg-purple-500/20 blur-[160px] bottom-10 -right-20"></div>
 
-      <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center relative z-10">
+      <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center relative z-10">
 
         {/* RIGHT IMAGE (Mobile pe pehle dikhaye) */}
         <motion.div
@@ -22,7 +22,7 @@ function Hero() {
           <div className="relative group">
             <img
               src={profile}
-              className="w-80 h-80 rounded-full object-cover transition duration-500 group-hover:scale-105"
+              className="w-60 h-60 md:w-80 md:h-80 rounded-full object-cover transition duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-blue-500/20 blur-3xl opacity-40 -z-10"></div>
           </div>
@@ -49,7 +49,7 @@ function Hero() {
             👋 Hello, I'm
           </p>
 
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-3">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight mb-3">
             <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
               Rohit Ramashankar Prasad
             </span>
@@ -87,11 +87,6 @@ function Hero() {
 
         </motion.div>
 
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-gray-500 text-sm animate-bounce">
-        Scroll Down
       </div>
 
     </section>
