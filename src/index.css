@@ -16,7 +16,6 @@ scroll-behavior:smooth;
 
 
 /* ---------- BODY ---------- */
-
 body{
 
 font-family: 'Inter', sans-serif;
@@ -29,12 +28,11 @@ radial-gradient(circle at 40% 80%, #06b6d440, transparent 40%),
 
 color:white;
 
-min-height:100vw;
+min-height:100vh;
 
 overflow-x:hidden;
 
 }
-
 
 /* ---------- CONTAINER ---------- */
 
@@ -44,9 +42,7 @@ margin:auto;
 padding:0 20px;
 }
 
- body {
-  overflow-x: hidden;
-}
+
 
 /* ---------- SECTION ---------- */
 
