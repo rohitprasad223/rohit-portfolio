@@ -6,9 +6,7 @@ import Skills from "./components/skills"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer.jsx"
-import ScrollToHash from "./components/ScrollToHash";
-
-
+import ScrollToHash from "./components/ScrollToHash"
 
 import ParticleBackground from "./effects/ParticleBackground"
 import CustomCursor from "./effects/CustomCursor"
@@ -18,10 +16,14 @@ function App() {
 return (
 
 <div className="bg-slate-900 text-white">
-<ScrollToHash />
-<CustomCursor/>
+
 <ParticleBackground/>
+<ScrollToHash/>
+<CustomCursor/>
+
 <Navbar/>
+
+<div className="overflow-x-hidden">
 <Hero/>
 <About/>
 <Education/>
@@ -29,6 +31,8 @@ return (
 <Projects/>
 <Contact/>
 <Footer/>
+</div>
+
 </div>
 
 )
