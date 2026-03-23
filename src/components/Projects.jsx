@@ -1,3 +1,4 @@
+
 import Slider from "react-slick";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt, FaRocket  } from "react-icons/fa";
@@ -15,7 +16,7 @@ function Projects() {
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 2
+        slidesToShow: 1
       }
     }
   ]
